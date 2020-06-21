@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная страница</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__logo">
+          <a href="/" class="header__link">
+            <img
+              src="./images/logo.png"
+              alt="Логотип Коворкинга"
+              class="header__pic"
+            />
+          </a>
+        </div>
+        <address class="header__contacts header-contacts">
+          <a href="tel://88000039210" class="header-contacts__link">
+            <span class="header-contacts__phone">8 (800) 00-392-10</span>
+          </a>
+          <span class="header-contacts__schedule">График работы</span>
+        </address>
+      </header>
+      <main class="main">
+        <div class="main__about main-about">
+          <div class="main-about__banner">
+            <img
+              src="./images/banner.png"
+              alt="Баннер Коворкинга"
+              class="main-about__pic"
+            />
+          </div>
+        </div>
+        <nav class="main__sidebar sidebar">
+          <ul class="sidebar__list">
+            <li class="sidebar__item sidebar-item sidebar-item__active">
+              <a href="#" class="sidebar-item__link ">
+                <img
+                  src="./images/main_icon_active.png"
+                  alt=""
+                  class="sidebar-item__icon"
+                />
+                <span class="sidebar-item__text">Главная</span>
+              </a>
+            </li>
+            <li class="sidebar__item sidebar-item">
+              <a href="#" class="sidebar-item__link">
+                <img
+                  src="./images/feed_icon.png"
+                  alt=""
+                  class="sidebar-item__icon"
+                />
+                <span class="sidebar-item__text">Отзывы</span>
+              </a>
+            </li>
+            <li class="sidebar__item sidebar-item">
+              <a href="#" class="sidebar-item__link">
+                <img
+                  src="./images/wallet_icon.png"
+                  alt=""
+                  class="sidebar-item__icon"
+                />
+                <span class="sidebar-item__text">Тарифы</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="main__content main-content">
+          <div class="main-content__features features">
+            <h2 class="features__title">ОСОБЕННОСТИ</h2>
+            <ul class="features__list">
+              <li class="features__item">
+                <div class="features__img">
+                  <img src="./images/flower.png" alt="УНИКАЛЬНОСТЬ" class="features__pic" />
+                </div>
+                <div class="features__description features-description">
+                  <h3 class="features-description__title">УНИКАЛЬНОСТЬ</h3>
+                  <span class="features-description__text"
+                    >Создан для вашего комфортного отдыха</span
+                  >
+                  <ul class="features-description__list">
+                    <li class="features-description__item">Кофе/чай</li>
+                    <li class="features-description__item">Шкаф (5кг)</li>
+                    <li class="features-description__item">Рабочее место</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="features__item">
+                <div class="features__img">
+                  <img src="./images/star.png" alt="ПРЕМИУМ-КЛАСС" class="features__pic" />
+                </div>
+                <div class="features__description features-description">
+                  <h3 class="features-description__title">ПРЕМИУМ-КЛАСС</h3>
+                  <span class="features-description__text"
+                    >Для любителей хороших впечатлений</span
+                  >
+                  <ul class="features-description__list">
+                    <li class="features-description__item">Обед+кофе</li>
+                    <li class="features-description__item">Шкаф (10кг)</li>
+                    <li class="features-description__item">Детское кресло</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="features__item">
+                <div class="features__img">
+                  <img src="./images/palette.png" alt="ЛАКШЕРИ СТУЛЬЯ" class="features__pic" />
+                </div>
+                <div class="features__description features-description">
+                  <h3 class="features-description__title">ЛАКШЕРИ СТУЛЬЯ</h3>
+                  <span class="features-description__text"
+                    >Все самое лучшее и незабываемое</span
+                  >
+                  <ul class="features-description__list">
+                    <li class="features-description__item">Джакузи</li>
+                    <li class="features-description__item">Шкаф (15кг)</li>
+                    <li class="features-description__item">Табуретка</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="main-content__news news">
+            <h2 class="news__title">Последние новости</h2>
+            <ul class="news__list">
+              <li class="news__item">
+                <div class="news__img">
+                  <img src="./images/blackhole.png" alt="Черная дыра скидок" class="news__pic" />
+                </div>
+                <news__post class="post">
+                  <span class="post__date">12.10.2016</span
+                  ><span class="post__title">Черная дыра скидок</span>
+                  <div class="post__text">
+                    Ключевым технологическим партнером GrowUp является
+                    дата-центр Миран, расположенный всего лишь в 500 метрах от
+                    здания, а значит, скорость интернета будет стабильной в
+                    любое время суток. Коворкинг работает в формате
+                    24/7.Используйте шкаф для хранения личных вещей.
+                  </div>
+                </news__post>
+              </li>
+              <li class="news__item">
+                <div class="news__img">
+                  <img
+                    src="./images/man.png"
+                    alt="Заражай друзей, получай призы!"
+                    class="news__pic"
+                  />
+                </div>
+                <news__post class="post">
+                  <span class="post__date">01.02.2016</span
+                  ><span class="post__title"
+                    >Заражай друзей, получай призы!</span
+                  >
+                  <div class="post__text">
+                    Быть частью сообщества сильных, грамотных и увлеченных своим
+                    делом профессионалов - вдохновляет выходить на новые уровни
+                    развития. Регулярно в коворкинге проводятся лекции,
+                    мастер-классы, встречи с инвесторами или менторами для
+                    резидентов.
+                  </div>
+                </news__post>
+              </li>
+              <li class="news__item">
+                <div class="news__img">
+                  <img src="./images/table.png" alt="Новое рабочее место для бизнесменов" class="news__pic" />
+                </div>
+                <news__post class="post">
+                  <span class="post__date">22.12.2015</span
+                  ><span class="post__title"
+                    >Новое рабочее место для бизнесменов</span
+                  >
+                  <div class="post__text">
+                    Для резидентов коворкинга оборудована не только рабочая
+                    зона, но и зона отдыха. Она включает в себя: кухонную зону и
+                    зону релакса.'Каждый резидент может беспрепятственно
+                    пользоваться кухонным оборудованием: микроволновкой,
+                    чайником, кофе машиной, посудой.
+                  </div>
+                </news__post>
+              </li>
+            </ul>
+            <div class="news__pagination pagination">
+              <span class="pagination__text">Страница 1 из 7</span>
+              <div class="pagination__pages">
+                <a href="" class="pagination__arrow pagination__prev"><</a>
+                <ul class="pagination__pages">
+                  <li class="pagination__page pagination-page pagination-page__active"><a href="#" class="pagination__link">1</a></li>
+                  <li class="pagination__page pagination-page"><a href="#" class="pagination__link">2</a></li>
+                  <li class="pagination__page pagination-page"><a href="#" class="pagination__link">3</a></li>
+                  <li class="pagination__page pagination-page"><a href="#" class="pagination__link">4</a></li>
+                  <li class="pagination__page pagination-page"><a href="#" class="pagination__link">5</a></li>
+                  <li class="pagination__page pagination-page"><a href="#" class="pagination__link">6</a></li>
+                  <li class="pagination__page pagination-page"><a href="#" class="pagination__link">7</a></li>
+                </ul>
+                <a href="" class="pagination__arrow pagination__next">></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__about footer-about">
+          <div class="footer-about__info">
+            <span class="footer-about__text">
+              Сделано с любовью и старанием на курсе "HTML + CSS" в <a href="http://loftschool.com" class="footer-about__loftschool">LoftSchool</a>
+            </span><br>
+            <span class="footer-about__autor">Автор работы: <b>Лавров Петр</b></span>
+          </div>
+        </div>
+        <div class="footer__logo footer-logo">
+          <img src="./images/logo.png" alt="Логотип Коворкинга" class="footer-logo__pic">
+        </div>
+        <div class="footer__socials socials">
+          <span class="socials__title">Наши социальные сети</span>
+          <ul class="socials__list">
+            <li class="socials__item"><a href="https://vk.com/lavrovpeter" class="social__link social__vk"><img src="./images/vk.png" alt="Вконтакте" class="social__pic"></a></li>
+            <li class="socials__item"><a href="#" class="social__link social__fb"><img src="./images/fb.png" alt="Facebook" class="social__pic"></a></li>
+            <li class="socials__item"><a href="#" class="social__link social__tw"><img src="./images/twitter.png" alt="Twitter" class="social__pic"></a></li>
+            <li class="socials__item"><a href="#" class="social__link social__email"><img src="./images/mail.png" alt="Электронная почта" class="social__pic"></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
