@@ -1,0 +1,26 @@
+@import url(./features.css);
+@import url(./news.css);
+
+.main__container {
+  font-size: 0;
+}
+
+.sidebar {
+  display: inline-block;
+  width: 18%;
+  vertical-align: top;
+}
+
+.main-content {
+  display: inline-block;
+  width: 82%;
+  vertical-align: top;
+}
+
+.main-about {
+  margin-bottom: 67px;
+}
+
+.main-content__features {
+  margin-bottom: 72px;
+}

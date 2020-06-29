@@ -1,0 +1,137 @@
+.news__title {
+  font-family: 'gothamprobold';
+  font-size: 49px;
+  font-weight: 700;
+  color: #262424;
+  margin-bottom: 71px;
+}
+
+.news__list {
+  padding-bottom: 16px;
+}
+
+.news__img {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 15px;
+  width: 160px;
+  height: 160px;
+}
+
+.news__pic {
+  width: 100%;
+  height: auto;
+}
+
+.news__item {
+  border-bottom: 2px solid #f4f4f4;
+  padding-bottom: 20px;
+  margin-bottom: 29px;
+}
+
+.news__item:last-child {
+  border-bottom: 0px;
+}
+
+.post {
+  display: inline-block;
+  width: 80%;
+  vertical-align: top;
+}
+
+
+.post__date {
+  font-family: 'robotolight';
+  font-size: 14px;
+  font-weight: 300;
+  color: #656464;
+  margin-bottom: 5px;
+}
+
+.post__title {
+  font-family: 'robotobold';
+  font-size: 18px;
+  font-weight: 700;
+  color: #262424;
+  margin-bottom: 10px;
+}
+
+.post__text {
+  font-family: 'robotolight';
+  font-size: 18px;
+  line-height: 30px;
+  color: #262424;
+}
+
+.pagination {
+  text-align: center;
+  width: 99%;
+  margin-bottom: 70px;
+}
+
+.pagination__text { 
+  display: inline-block;
+  font-family: 'robotolight';
+  font-size: 14px;
+  font-weight: 300;
+  color: #656464;
+  margin-right: 20px;
+}
+
+.pagination__arrow {
+  color: #656464;
+  font-family: 'opensansbold';
+  font-size: 14px;
+  font-weight: 700;
+  padding: 2px 7.5px 4px;
+  border: 1px solid transparent;
+}
+
+.pagination__arrow:hover {
+  color: #cb2376;
+}
+
+.pagination__arrow:active {
+  border: 1px solid #2b2b40;
+  border-radius: 3px;
+}
+
+.pagination__arrow--active {
+  color: #262424;
+  font-weight: 700;
+}
+
+.pagination__pages {
+  display: inline-block;
+}
+
+.pagination-page {
+  display: inline-block;
+}
+
+.pagination__link {
+  font-family: 'robotobold';
+  font-size: 14px;
+  font-weight: 700;
+  color: #262424;
+  padding: 4px 7.5px;
+  border-radius: 3px;
+  transition: .5s;
+  border: 1px solid transparent;
+}
+
+.pagination__link:hover {
+  color: #cb2376;
+  transition: .5s;
+}
+
+.pagination__link:active {
+  border: 1px solid #2b2b40;
+  border-radius: 3px;
+}
+
+.pagination__link--active {
+  color: #cb2376;
+  background-color: #2b2b40;
+}
