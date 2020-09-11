@@ -3,7 +3,7 @@
 }
 
 .sidebar-item {
-  margin-bottom: 32px;
+  margin-bottom: 29px;
 }
 
 .sidebar-item:last-child {
@@ -15,12 +15,13 @@
   text-decoration: underline #d3d3d3;
 }
 
-.sidebar-item:hover .sidebar-item__text {
+.sidebar-item__link:hover .sidebar-item__text {
   color: #000;
 }
 
 .sidebar-item__link {
   display: inline-block;
+  height: 20px;
 }
 
 .sidebar-item__link:active .sidebar-item__text {
@@ -45,7 +46,7 @@
   vertical-align: middle;
 }
 
-.sidebar-item__main:before {
+.sidebar-item__main .sidebar-item__link:before {
   content: "";
   background: url(../images/main_icon.png) no-repeat;
   display: inline-block;
@@ -54,7 +55,7 @@
   margin-right: 17px;
   vertical-align: middle;
 }
-.sidebar-item__comments:before {
+.sidebar-item__comments .sidebar-item__link:before {
   content: "";
   background: url(../images/feed_icon.png) no-repeat;
   display: inline-block;
@@ -63,7 +64,7 @@
   margin-right: 17px;
   vertical-align: middle;
 }
-.sidebar-item__taxes:before {
+.sidebar-item__taxes .sidebar-item__link:before {
   content: "";
   background: url(../images/wallet_icon.png) no-repeat;
   display: inline-block;
@@ -73,57 +74,21 @@
   vertical-align: middle;
 }
 
-.sidebar-item--active.sidebar-item__main:before {
-  content: "";
+.sidebar-item--active.sidebar-item__main .sidebar-item__link:before {
   background: url(../images/main_icon_active.png) no-repeat;
-  display: inline-block;
-  min-width: 20px;
-  min-height: 18px;
-  margin-right: 17px;
-  vertical-align: middle;
 }
-.sidebar-item--active.sidebar-item__comments:before {
-  content: "";
+.sidebar-item--active.sidebar-item__comments .sidebar-item__link:before {
   background: url(../images/feed_icon_active.png) no-repeat;
-  display: inline-block;
-  min-width: 20px;
-  min-height: 18px;
-  margin-right: 17px;
-  vertical-align: middle;
 }
-.sidebar-item--active.sidebar-item__taxes:before {
-  content: "";
+.sidebar-item--active.sidebar-item__taxes .sidebar-item__link:before  {
   background: url(../images/wallet_icon_active.png) no-repeat;
-  display: inline-block;
-  min-width: 20px;
-  min-height: 18px;
-  margin-right: 17px;
-  vertical-align: middle;
 }
-.sidebar-item:hover.sidebar-item__main:before {
-  content: "";
+.sidebar-item__main .sidebar-item__link:hover:before {
   background: url(../images/main_icon_active.png) no-repeat;
-  display: inline-block;
-  min-width: 20px;
-  min-height: 18px;
-  margin-right: 17px;
-  vertical-align: middle;
 }
-.sidebar-item:hover.sidebar-item__comments:before {
-  content: "";
+.sidebar-item__comments .sidebar-item__link:hover:before {
   background: url(../images/feed_icon_active.png) no-repeat;
-  display: inline-block;
-  min-width: 20px;
-  min-height: 18px;
-  margin-right: 17px;
-  vertical-align: middle;
 }
-.sidebar-item:hover.sidebar-item__taxes:before {
-  content: "";
+.sidebar-item__taxes .sidebar-item__link:hover:before {
   background: url(../images/wallet_icon_active.png) no-repeat;
-  display: inline-block;
-  min-width: 20px;
-  min-height: 18px;
-  margin-right: 17px;
-  vertical-align: middle;
 }
