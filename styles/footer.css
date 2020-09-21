@@ -1,3 +1,48 @@
 .footer__container {
-  background-color: gray;
+  position: relative;
+  background-color: #2b2b40;
+  font-size: 0;
+}
+
+.footer__about {
+  display: inline-block;
+  font-family: 'gothampro';
+  font-size: 14px;
+  width: 50%;
+  color: #ffffff;
+  text-align: left;
+  padding: 15px 0;
+}
+
+.footer-about__info {
+  width: 49%;
+  margin-right: auto;
+  margin-left: 19px;
+}
+
+.footer-about__text {
+  display: inline-block;
+  font-weight: 300;
+}
+
+.footer-about__author {
+  display: inline-block;
+}
+
+.footer-about__loftschool {
+  font-weight: 700;
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.footer__logo {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.footer__socials {
+  display: inline-block;
+  width: 50%;
 }

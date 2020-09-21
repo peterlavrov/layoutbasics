@@ -1,0 +1,46 @@
+
+
+.socials {
+  font-family: 'gothampro';
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.socials__container {
+  display: block;
+  margin-left: auto;
+  margin-right: 22px;
+  width: 34%;
+}
+
+.socials__title {
+  margin-bottom: 9px;
+}
+
+.socials__item {
+  display: inline-block;
+  margin-right: 10px;
+}
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.social__link {
+  font-size: 0;
+  display: inline-block;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.social__pic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}

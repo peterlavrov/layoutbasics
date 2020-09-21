@@ -3,7 +3,7 @@
 }
 
 .sidebar-item {
-  margin-bottom: 29px;
+  margin-bottom: 32px;
 }
 
 .sidebar-item:last-child {
@@ -21,7 +21,6 @@
 
 .sidebar-item__link {
   display: inline-block;
-  height: 20px;
 }
 
 .sidebar-item__link:active .sidebar-item__text {
