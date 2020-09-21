@@ -38,13 +38,13 @@
   vertical-align: middle;
 }
 
-.sidebar-item__icon {
+/* .sidebar-item__icon {
   display: inline-block;
   min-width: 20px;
   max-height: 18px;
   margin-right: 17px;
   vertical-align: middle;
-}
+} */
 
 .sidebar-item__main .sidebar-item__link:before {
   content: "";
