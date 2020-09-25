@@ -2,22 +2,20 @@
   position: relative;
   background-color: #2b2b40;
   font-size: 0;
+  min-height: 77px;
 }
 
 .footer__about {
-  display: inline-block;
+  position: absolute;
+  display: block;
   font-family: 'gothampro';
   font-size: 14px;
-  width: 50%;
   color: #ffffff;
   text-align: left;
-  padding: 15px 0;
-}
-
-.footer-about__info {
-  width: 49%;
-  margin-right: auto;
-  margin-left: 19px;
+  max-width: 22%;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .footer-about__text {
@@ -38,11 +36,15 @@
 .footer__logo {
   position: absolute;
   display: inline-block;
+  left: 50%;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translate(-50%, -50%);
 }
 
 .footer__socials {
-  display: inline-block;
-  width: 50%;
+  position: absolute;
+  right: 14px;
+  min-width: 16%;
+  top: 50%;
+  transform: translateY(-50%);
 }

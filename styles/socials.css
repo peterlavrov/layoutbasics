@@ -7,12 +7,6 @@
   color: #ffffff;
 }
 
-.socials__container {
-  display: block;
-  margin-left: auto;
-  margin-right: 22px;
-  width: 34%;
-}
 
 .socials__title {
   margin-bottom: 9px;
@@ -20,7 +14,7 @@
 
 .socials__item {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 6px;
 }
 .socials__item:last-child {
   margin-right: 0;
@@ -39,8 +33,8 @@
 
 .social__pic {
   position: absolute;
-  top: 50%;
   left: 50%;
+  top: 50%;
   transform: translate(-50%, -50%);
   
 }
