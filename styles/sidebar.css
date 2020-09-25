@@ -1,9 +1,9 @@
 .sidebar__list {
-  padding: 0 0 0 20px;
+  margin: 0 0 0 19px;
 }
 
 .sidebar-item {
-  margin-bottom: 32px;
+  margin-bottom: 36px;
 }
 
 .sidebar-item:last-child {
@@ -21,6 +21,7 @@
 
 .sidebar-item__link {
   display: inline-block;
+  position: relative;
 }
 
 .sidebar-item__link:active .sidebar-item__text {
@@ -34,16 +35,9 @@
   font-weight: 700;
   color: #cb2376;
   text-transform: uppercase;
-  vertical-align: middle;
+  padding-left: 37px;
+  letter-spacing: .1em;
 }
-
-/* .sidebar-item__icon {
-  display: inline-block;
-  min-width: 20px;
-  max-height: 18px;
-  margin-right: 17px;
-  vertical-align: middle;
-} */
 
 .sidebar-item__main .sidebar-item__link:before {
   content: "";
@@ -51,8 +45,10 @@
   display: inline-block;
   min-width: 20px;
   min-height: 18px;
-  margin-right: 17px;
-  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .sidebar-item__comments .sidebar-item__link:before {
   content: "";
@@ -60,8 +56,10 @@
   display: inline-block;
   min-width: 20px;
   min-height: 18px;
-  margin-right: 17px;
-  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .sidebar-item__taxes .sidebar-item__link:before {
   content: "";
@@ -69,25 +67,79 @@
   display: inline-block;
   min-width: 20px;
   min-height: 18px;
-  margin-right: 17px;
-  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.sidebar-item--active.sidebar-item__main .sidebar-item__link:before {
+.sidebar-item__main .sidebar-item__link:after {
+  content: "";
   background: url(../images/main_icon_active.png) no-repeat;
+  min-width: 20px;
+  min-height: 18px;
+  position: absolute;
+  left: 0;
+  display: none;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.sidebar-item__comments .sidebar-item__link:after {
+  content: "";
+  background: url(../images/feed_icon_active.png) no-repeat;
+  min-width: 20px;
+  min-height: 18px;
+  position: absolute;
+  left: 0;
+  display: none;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.sidebar-item__taxes .sidebar-item__link:after {
+  content: "";
+  background: url(../images/wallet_icon_active.png) no-repeat;
+  min-width: 20px;
+  min-height: 18px;
+  position: absolute;
+  left: 0;
+  display: none;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.sidebar-item--active.sidebar-item__main .sidebar-item__link:after {
+  display: inline-block;
+}
+.sidebar-item--active.sidebar-item__comments .sidebar-item__link:after {
+  display: inline-block;
+}
+.sidebar-item--active.sidebar-item__taxes .sidebar-item__link:after  {
+  display: inline-block;
+}
+.sidebar-item__main .sidebar-item__link:hover:after {
+  display: inline-block;
+}
+.sidebar-item__comments .sidebar-item__link:hover:after {
+  display: inline-block;
+}
+.sidebar-item__taxes .sidebar-item__link:hover:after {
+  display: inline-block;
+}
+.sidebar-item--active.sidebar-item__main .sidebar-item__link:before {
+  display: none;
 }
 .sidebar-item--active.sidebar-item__comments .sidebar-item__link:before {
-  background: url(../images/feed_icon_active.png) no-repeat;
+  display: none;
 }
 .sidebar-item--active.sidebar-item__taxes .sidebar-item__link:before  {
-  background: url(../images/wallet_icon_active.png) no-repeat;
+  display: none;
 }
 .sidebar-item__main .sidebar-item__link:hover:before {
-  background: url(../images/main_icon_active.png) no-repeat;
+  display: none;
 }
 .sidebar-item__comments .sidebar-item__link:hover:before {
-  background: url(../images/feed_icon_active.png) no-repeat;
+  display: none;
 }
 .sidebar-item__taxes .sidebar-item__link:hover:before {
-  background: url(../images/wallet_icon_active.png) no-repeat;
+  display: none;
 }
