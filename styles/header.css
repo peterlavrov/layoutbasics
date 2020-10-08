@@ -55,14 +55,6 @@
   transform: rotate(-45deg);
 }
 
-.schedule-popup {
-  display: inline-block;
-  min-width: 145px;
-  position: absolute;
-  right: -9999px;
-  top: calc(100% + 23px);
-}
-
 .schedule__title {
   opacity: 0.7;
   font-family: "opensansbold";
@@ -72,20 +64,26 @@
   color: #cb2376;
 }
 
+
+.schedule-popup {
+  display: none;
+  min-width: 145px;
+  position: absolute;
+  right: -9999px;
+  top: calc(100% + 23px);
+  padding: 14px 5px 17px 14px;
+  background: #fff;
+  text-align: left;
+  border-radius: 3px;
+}
+
 .schedule:hover .schedule__title{
   color: #8ad0f6;
 }
 
 .schedule:hover .schedule-popup {
-  right: 0;
-}
-
-.schedule-popup {
   display: block;
-  padding: 14px 5px 17px 14px;
-  background: #fff;
-  text-align: left;
-  border-radius: 3px;
+  right: 0;
 }
 
 .schedule-popup__workdays {
