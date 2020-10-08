@@ -4,6 +4,7 @@
 .main__container {
   font-size: 0;
   margin-bottom: 73px;
+  padding-top: 70px;
 }
 
 .sidebar {
@@ -16,10 +17,6 @@
   display: inline-block;
   width: 82%;
   vertical-align: top;
-}
-
-.main-about {
-  margin-bottom: 70px;
 }
 
 .main-content__features {
