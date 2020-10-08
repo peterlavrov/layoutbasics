@@ -33,7 +33,7 @@
 }
 
 .social__link:hover {
-  background-color: gray;
+  background-color: #cb2376;
   transition:  background-color .3s;
 }
 
