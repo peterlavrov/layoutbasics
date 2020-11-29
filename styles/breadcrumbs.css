@@ -1,0 +1,28 @@
+.breadcrumbs {
+  margin-top: -6px;
+  margin-bottom: 28px;
+}
+
+.breadcrumbs__item {
+  display: inline-block;
+}
+
+.breadcrumbs__separator {
+  display: inline-block;
+  font-size: 14px;
+  font-family: "gothamprolightitalic";
+  margin-right: 4px;
+}
+
+.breadcrumbs__link {
+  font-family: "gothamprolightitalic";
+  font-size: 14px;
+  text-decoration: underline;
+  color: #cb2376;
+  margin-right: 4px;
+}
+
+.breadcrumbs__item:last-child .breadcrumbs__link{
+  color: #262424;
+  text-decoration: none;
+}

@@ -1,0 +1,23 @@
+.proposition {
+  display: block;
+  background-color: #2b2b40;
+  background-image: url(../images/pattern.png);
+  background-repeat: repeat-x;
+  background-position: left center;
+}
+
+.proposition__text {
+  vertical-align: middle;
+  font-family: 'gothamprolight';
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 0 auto 0 auto;
+  width: 57%;
+  padding: 42px 0;
+}
+
+.proposition__text--highlighted {
+  font-family: 'gothamprobold';
+  color: #cb2376;
+}

@@ -1,1 +1,55 @@
-@import './breadcrumbs.css';
+@import url(./normalize.css);
+@import url(./fonts.css);
+@import url(./base.css);
+@import url(./header.css);
+@import url(./banner.css);
+@import url(./sidebar.css);
+@import url(main-content.css);
+@import url(./footer.css);
+@import url(./socials.css);
+@import url(./title.css);
+@import url(./breadcrumbs.css);
+@import url(./post.css);
+@import url(./proposition.css);
+
+
+.main__container {
+  padding-top: 48px;
+}
+
+.main-content {
+  margin-bottom: 57px;
+}
+
+.feedback__title {
+  margin-bottom: 50px;
+}
+
+
+.feedback__list {
+  padding-bottom: 16px;
+}
+
+.feedback__img {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 15px;
+  width: 160px;
+  height: 160px;
+}
+
+.feedback__pic {
+  width: 100%;
+  height: auto;
+}
+
+.feedback__item {
+  border-bottom: 2px solid #f4f4f4;
+  padding-bottom: 20px;
+  margin-bottom: 29px;
+}
+
+.feedback__item:last-child {
+  border-bottom: 0px;
+}
