@@ -26,3 +26,7 @@
   line-height: 30px;
   color: #262424;
 }
+
+.feedback__item .post .post__text {
+  letter-spacing: 1.2px;
+}

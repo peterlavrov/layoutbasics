@@ -5,6 +5,7 @@
 @import url(./banner.css);
 @import url(./sidebar.css);
 @import url(main-content.css);
+@import url(../styles/pagination.css);
 @import url(./footer.css);
 @import url(./socials.css);
 @import url(./title.css);

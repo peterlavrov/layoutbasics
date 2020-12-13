@@ -20,7 +20,7 @@
   font-family: "gothamprolightitalic";
   src: url("../fonts/GothamProLightItalic.woff") format("woff"), url("../fonts/GothamProLightItalic.woff2") format("woff2");
   font-weight: 300;
-  font-weight: italic;
+  font-style: italic;
 }
 @font-face {
   font-family: "opensansbold";
