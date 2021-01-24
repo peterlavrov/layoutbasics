@@ -54,7 +54,7 @@
               </a>
             </li>
           </ul>
-        </nav>>
+        </nav>
         <div class="main__content main-content">
 
           <div class="main-content__feedback feedback">
@@ -177,19 +177,41 @@
         </div>
         <div class="feedback__form form">
           <form action="#" method="GET" class="form__container">
-            <h2 class="form__title">Оставить отзыв</h2>
-            <label for="name" class="form__block">
-              <span class="form__block-title">Ваше имя</span>
-              <input type="text" name="name" placeholder="Андрей" required>
-            </label>
-            <label for="name" class="form__block">
-              <span class="form__block-title">Ссылка на профиль VK</span>
-              <input type="text" name="name" placeholder="Андрей" required>
-            </label>
-            <label for="name" class="form__block">
-              <span class="form__block-title">Ваше имя</span>
-              <input type="text" name="name" placeholder="Андрей" required>
-            </label>
+            <div class="form__content">
+              <h2 class="form__title title">Оставить отзыв</h2>
+              <div class="form__row form__inputs">
+                <label for="name" class="form__block form-block">
+                  <div class="form-block__title">Ваше имя</div>
+                  <input class="form-block__input" type="text" name="name" id="name" placeholder="Андрей">
+                </label>
+                <label for="vk" class="form__block form-block">
+                  <div class="form-block__title">Ссылка на профиль VK</div>
+                  <input class="form-block__input" type="text" name="vk" id="vk" placeholder="vk.com/example">
+                </label>
+              </div>
+              <div class="form__row">
+                <label for="message" class="form__textarea form-textarea">
+                  <div class="form-textarea__title">Текст отзыва</div>
+                  <textarea class="form-textarea__input" name="message" id="message"></textarea>
+                </label>
+              </div>
+              <div class="form__row form__controls">
+                <div class="form__radio form-radio">
+                  <div class="form-radio__title">Отображать фото в отзыве?</div>
+                  <div class="form-radio__buttons">
+                    <label class="form-radio__label" for="show">
+                      <input type="radio" class="form-radio__select" name="photo" id="show" value="show">
+                      <div class="form-radio__yes">Да</div>
+                    </label>
+                    <label class="form-radio__label" for="hide">
+                      <input type="radio" class="form-radio__select" name="photo" id="hide" value="hide">
+                      <div class="form-radio__no">Нет</div>
+                    </label>
+                  </div>
+                </div>
+                <button class="form__submit" type="submit">ОТПРАВИТЬ</button>
+              </div>
+            </div>
           </form>
         </div>
       </div>
